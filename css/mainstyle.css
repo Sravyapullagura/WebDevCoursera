@@ -1,0 +1,91 @@
+body{
+	background-color:#98dafc;
+	font-family: 'Amaranth', sans-serif;
+	
+
+}
+.page-header{
+
+
+	border : 1px solid #62bcfa;
+	padding : 5px;
+	margin : 100px 10px 10px 2px ;
+	background-color :#9068be;
+	box-shadow :10px 10px 5px #9068be;;
+	color : #ffffff;
+	width : 75%;
+	clear : both;
+
+}
+
+.links-section {
+
+	width : 100%;
+	margin : 80px 0px 0px 0px;
+	margin-right : 0px;
+	padding : 10px;
+	position : relative;
+	height : 350px;
+
+}
+
+.link{
+
+	background-color : #e62739;
+	border : 1px solid #62bcfa;
+	box-shadow : 5px 5px 2px  #e62739;
+	width : 50%;
+	color : #ffffff;
+	float : right;
+	clear : right;
+	font-weight :bold;
+	font-size : 1.25em;
+	text-align : center;
+	padding : 10px;
+	margin : 10px 0px 0px 0px;
+	margin-right : 0px;
+
+}
+
+.footer-section{
+	text-align : center;
+	background : #22264b;
+	width : 100%;
+	margin-bottom : 0px;
+	height : 20%;
+	color : #ffffff;
+	padding : 5px;
+	font-size : 1.50em;
+
+
+}
+
+
+/*********** meadia queries *************/
+@media (max-width: 768px){
+
+	.page-header h1{
+		font-size : 1.25em;
+	}
+}
+
+
+@media (min-width: 768px){
+
+	.page-header h1{
+		font-size : 1.50em;
+	}
+}
+@media (min-width: 992px){
+
+	.page-header h1{
+		font-size : 1.75em;
+		}	
+}
+@media (min-width: 1200px){
+
+		
+		.page-header h1{
+			font-size : 2em;
+		}
+}	
