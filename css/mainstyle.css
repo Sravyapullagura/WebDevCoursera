@@ -46,6 +46,12 @@ body{
 	margin-right : 0px;
 
 }
+.link:hover, .link:focus{
+	color : #e62739; 
+	background-color :  #ffffff;
+
+
+}
 
 .footer-section{
 	position : absolute;
