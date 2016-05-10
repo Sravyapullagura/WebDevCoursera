@@ -12,7 +12,16 @@ body{
 }
 .navbar-default .navbar-brand{
 	color : #ffffff;
+	font-size : 1.5em;
 }
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+  text-decoration: none;
+  color : yellow;
+
+}
+
+
 .navbar-default .navbar-nav>li>a{
 	background-color : #667467;
 	color : #ffffff;
