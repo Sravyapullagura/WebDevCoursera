@@ -1,0 +1,48 @@
+body{
+
+	background-color : #f6f1ed;
+	font-family: 'Montserrat', sans-serif;
+}
+/*******Styling the header ********/
+.navbar{
+	background-color :#16174f;
+	border : 1px solid #16174f;
+	border-radius : 0%;
+
+}
+.navbar-default .navbar-brand{
+	color : #ffffff;
+}
+.navbar-default .navbar-nav>li>a{
+	background-color : #667467;
+	color : #ffffff;
+
+}
+.navbar-collapse .menuitems{
+
+	text-align : center;
+	width: 100%;
+	padding : 3px;
+	border : 1px solid #ffffff;
+	border-radius : 2%;
+	background-color : #667467;
+
+}
+
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+  color: black;
+  background-color: #ffffff;
+}
+
+
+/****** Styling main content ****/
+
+#main-content{
+
+	background-color : #963019;
+	padding : 20px;
+	margin : 10px;
+	color : #ffffff;
+
+}
